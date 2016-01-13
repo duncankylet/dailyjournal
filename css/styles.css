@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1vw;
+}
+body{
+	padding: 2em;
+	background-color: #6D899F;
+}
+header, footer{
+	background-color: #FFFFFF;
+	padding: 1em;
+}
+header {
+	font-size: 2vw;
+}
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 1.5vw;
+}
+a {
+	font-size: 3vw;
+}
+.clear {
+	height: 8rem;
+}
+
+.container{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  
+	width: 100%;
+}
+.journal-content{
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+	-ms-flex-order: 2;
+	-webkit-order: 2;
+	order: 2;
+  
+	-webkit-box-flex: 3;
+	-moz-box-flex: 3;	
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+  
+	background-color: #BCD39B;
+}
+.nav-bar{
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-ms-flex-order: 1;
+	-webkit-order: 1;
+	order: 1;
+  
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;	
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+  
+	background-color: #CE9B64;
+}
+.options-bar{
+	-webkit-box-ordinal-group: 3;
+	-moz-box-ordinal-group: 3;
+	-ms-flex-order: 3;
+	-webkit-order: 3;
+	order: 3;
+  
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+  
+	background-color: #62626D;
+}
+.journal-content, .nav-bar, .options-bar{
+	padding: 1em;
+}
+
+.journal-entry {
+	width: 100%;
+	height: 80vh;
+	resize: none;
+}
+
+.meter {
+	width: 100%;
+}
+
+/* mobile layout
+@media (max-width: 480px){
+	.container{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+  
+		width: 100%;
+  
+		-webkit-box-orient: vertical;
+		-moz-box-orient: vertical;
+    -ms-flex-orient: vertical;
+    -webkit-orient: vertical;
+    orient: vertical;
+	}
+	.nav-bar{
+		-webkit-box-ordinal-group: 2;
+		-moz-box-ordinal-group: 2;
+		-ms-flex-order: 2;
+		-webkit-order: 2;
+		order: 2;	}
+	.journal-content{
+		-webkit-box-ordinal-group: 1;
+		-moz-box-ordinal-group: 1;
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		order: 1;
+	}
+	.options-bar{
+		-webkit-box-ordinal-group: 3;
+		-moz-box-ordinal-group: 3;
+		-ms-flex-order: 3;
+		-webkit-order: 3;
+		order: 3;	
+}
+}
+ */
